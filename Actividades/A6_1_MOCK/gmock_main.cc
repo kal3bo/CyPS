@@ -39,11 +39,12 @@ public:
   //
   void Pinta(){
     t.PenDown();
+    t.PenUp();
+    t.GetX();
     t.GetY();
-    t.GetY();
-    t.GetY();
-    t.GetY();
-    t.GetY();
+    t.Forward(1);
+    t.Turn(180);
+    t.GoTo(0, 0);
     //t->PenDown();
   }
 };
@@ -55,14 +56,12 @@ TEST(PruebaDibujo, DibujaAlgo) {
   {
     InSequence algo;
     EXPECT_CALL(turtle, PenDown()).Times(1);
-    EXPECT_CALL(turtle, PenDown()).Times(1);
-    EXPECT_CALL(turtle, PenDown()).Times(1);
     EXPECT_CALL(turtle, PenUp()).Times(1);
-
-    EXPECT_CALL(turtle, GetY())
-    .WillOnce(Return(100))
-    .WillOnce(Return(200))
-    .WillRepeatedly(Return(300));
+    EXPECT_CALL(turtle, GetX()).Times(1);
+    EXPECT_CALL(turtle, GetY()).Times(1);
+    EXPECT_CALL(turtle, Forward(1)).Times(1);
+    EXPECT_CALL(turtle, Turn(180)).Times(1);
+    EXPECT_CALL(turtle, GoTo(0, 0)).Times(1);
 
 
   }
