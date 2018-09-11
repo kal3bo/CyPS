@@ -21,7 +21,6 @@ class AsciiArt{
 
 string AsciiArt::Compress(string imageName){
     char token = '^';
-    //string compressResult; 
     string line;
     ifstream file_(imageName);
     if(file_.is_open()){
