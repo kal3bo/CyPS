@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1536956522210,141,JSON_PLACE_HOLDER,200,OK,Thread Group 1-1,text,true,,6311,138,1,1,141,0,37
+1536956522420,0,Debug Sampler,200,OK,Thread Group 1-1,text,true,,269,0,1,1,0,0,0

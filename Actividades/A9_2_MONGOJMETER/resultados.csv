@@ -1,2 +1,3 @@
-1536697212901,35,JSR223 Sampler,200,OK,Thread Group 1-1,text,true,,57,0,1,1,0,0,0
-1536697213019,1,Debug Sampler,200,OK,Thread Group 1-1,text,true,,1732,0,1,1,0,0,0
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1536955224552,1501,JSR223 Sampler,200,OK,Thread Group 1-1,text,true,,57,0,1,1,0,0,0
+1536955226054,1,Debug Sampler,200,OK,Thread Group 1-1,text,true,,1803,0,1,1,0,0,0
