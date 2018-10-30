@@ -3,7 +3,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.select import Select
 import random
 
-chrome_path = r"C:\Users\Kaleb\Desktop\Practica\chromedriver.exe"
+chrome_path = r"/Users/kal3b/Documents/Tec/9sem/CyPS/chromedriver"
 driver = webdriver.Chrome(chrome_path)
 driver.get("http://app.sct.gob.mx/sibuac_internet/ControllerUI?action=cmdEscogeRuta")
 
